@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  api:
+    container_name: sport_backend
+    restart: unless-stopped
+    image: sport-backend-prod:1.0.0
+    build:
+      context: ./backend
+      target: production
+      dockerfile: Dockerfile
+    ports:
+      - 8000:8000
+    environment:
+      - NODE_ENV=production
+
+  client:
+    container_name: sport_frontend
+    restart: unless-stopped
+    image: sport-frontend-prod:1.0.0
+    build:
+      context: ./frontend
+      target: production
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    depends_on:
+      - api

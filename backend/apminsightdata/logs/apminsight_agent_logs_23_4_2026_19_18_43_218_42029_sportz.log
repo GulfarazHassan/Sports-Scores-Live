@@ -1,0 +1,219 @@
+[23/4/2026 19:18:43] [INFO] Instrumenting module:: "events"
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::prototype.addListener 
+[23/4/2026 19:18:43] [INFO] Instrumenting module:: "http"
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::createServer 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Server 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::request 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::get 
+[23/4/2026 19:18:43] [INFO] Instrumenting module:: "https"
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::createServer 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Server 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::request 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::get 
+[23/4/2026 19:18:43] [INFO] Instrumenting module:: "http2"
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::createSecureServer 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Http2ServerRequest.prototype.setTimeout 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Http2ServerResponse.prototype.end 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Http2ServerResponse.prototype.setTimeout 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Http2ServerResponse.prototype.createPushResponse 
+[23/4/2026 19:18:43] [INFO] Instrumenting module:: "net"
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Server.prototype.getConnections 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Server.prototype.close 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Socket.prototype.setTimeout 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Socket.prototype.write 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Socket.prototype.connect 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::createConnection 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Server.prototype.listen 
+[23/4/2026 19:18:43] [INFO] Instrumenting module:: "fs"
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::access 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::ftruncate 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::mkdir 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::mkdtemp 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::readdir 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::readFile 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::readlink 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::realpath 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::truncate 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::appendFile 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::symlink 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::copyFile 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::open 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::writeFile 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::chmod 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::fchmod 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::lchmod 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::link 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::rename 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::chown 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::fchown 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::lchown 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::futimes 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::utimes 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::close 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::exists 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::fdatasync 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::fstat 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::fsync 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::lstat 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::stat 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::rmdir 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::unlink 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::read 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::write 
+[23/4/2026 19:18:43] [INFO] realpath.native is undefined in module::fs 
+[23/4/2026 19:18:43] [INFO] Instrumenting module:: "dns"
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::lookupService 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::lookup 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::resolve 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::resolve4 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::resolve6 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::resolveCname 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::resolveMx 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::resolveNaptr 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::resolveNs 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::resolvePtr 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::resolveSoa 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::resolveSrv 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::resolveTxt 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::resolveAny 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::reverse 
+[23/4/2026 19:18:43] [INFO] Instrumenting module:: "crypto"
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::pbkdf2 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::randomBytes 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::randomFill 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::generateKeyPair 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::scrypt 
+[23/4/2026 19:18:43] [INFO] Instrumenting module:: "domain"
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Domain.prototype.bind 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Domain.prototype.intercept 
+[23/4/2026 19:18:43] [INFO] Instrumenting module:: "zlib"
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Deflate.prototype.close 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Inflate.prototype.close 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Gzip.prototype.close 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Gunzip.prototype.close 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::DeflateRaw.prototype.close 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::InflateRaw.prototype.close 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Unzip.prototype.close 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Deflate.prototype.flush 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Inflate.prototype.flush 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Gzip.prototype.flush 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Gunzip.prototype.flush 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::DeflateRaw.prototype.flush 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::InflateRaw.prototype.flush 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Unzip.prototype.flush 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Deflate.prototype.params 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::deflate 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::deflateRaw 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::gunzip 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::gzip 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::inflate 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::inflateRaw 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::unzip 
+[23/4/2026 19:18:43] [INFO] Instrumenting module:: "child_process"
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::exec 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::execFile 
+[23/4/2026 19:18:43] [INFO] Instrumenting module:: "cluster"
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::disconnect 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Worker.prototype.send 
+[23/4/2026 19:18:43] [INFO] Instrumenting module:: "process"
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::send 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::nextTick 
+[23/4/2026 19:18:43] [INFO] Instrumenting module:: "dgram"
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Socket.prototype.bind 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Socket.prototype.close 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Socket.prototype.send 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::createSocket 
+[23/4/2026 19:18:43] [INFO] Instrumenting module:: "tls"
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::connect 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::TLSSocket.prototype.renegotiate 
+[23/4/2026 19:18:43] [INFO] Instrumenting module:: "stream"
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Writable.prototype.write 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Writable.prototype.end 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::finished 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::pipeline 
+[23/4/2026 19:18:43] [INFO] Instrumenting module:: "global"
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::setImmediate 
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::setTimeout 
+[23/4/2026 19:18:43] [INFO] Instrumenting module:: "inspector"
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Session.prototype.post 
+[23/4/2026 19:18:43] [INFO] Instrumenting module:: "worker_threads"
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Worker.prototype.terminate 
+[23/4/2026 19:18:43] [INFO] Instrumenting module:: "readline"
+[23/4/2026 19:18:43] [INFO] Instrumenting function ::Interface.prototype.question 
+[23/4/2026 19:18:43] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","cors":"^2.8.6","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[23/4/2026 19:18:43] [INFO] Application not hosted in Kubernetes. 
+[23/4/2026 19:18:43] [ERROR] HTTP request error: socket hang up 
+[23/4/2026 19:18:44] [ERROR] HTTP request error: socket hang up 
+[23/4/2026 19:18:44] [INFO] Application not hosted in AWS. 
+[23/4/2026 19:18:44] [ERROR] HTTP request error: socket hang up 
+[23/4/2026 19:18:44] [INFO] Application not hosted in Azure 
+[23/4/2026 19:18:44] [ERROR] HTTP request error: getaddrinfo ENOTFOUND metadata.google.internal 
+[23/4/2026 19:18:44] [INFO] Application not hosted in GCP 
+[23/4/2026 19:18:45] [ERROR] HTTP request error: socket hang up 
+[23/4/2026 19:18:45] [INFO] Application not hosted in docker. 
+[23/4/2026 19:18:45] [INFO] Application not hosted in AWS_Fargate 
+[23/4/2026 19:18:45] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[23/4/2026 19:18:46] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[23/4/2026 19:18:46] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[23/4/2026 19:18:49] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:18:52] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:19:1] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:19:2] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:19:7] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:19:17] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:19:23] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:19:32] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:19:37] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:19:43] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","cors":"^2.8.6","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[23/4/2026 19:19:43] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[23/4/2026 19:19:43] [INFO] data processing starts 
+[23/4/2026 19:19:43] [CRITICAL]  Unknown response code ::undefined 
+[23/4/2026 19:19:43] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[23/4/2026 19:19:43] [INFO] data processing ends 
+[23/4/2026 19:19:43] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[23/4/2026 19:19:43] [CRITICAL] received response code : "INVALID_AGENT"
+[23/4/2026 19:19:44] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[23/4/2026 19:19:44] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[23/4/2026 19:19:52] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:19:57] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:20:7] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:20:12] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:20:27] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:20:32] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:20:42] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:20:43] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","cors":"^2.8.6","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[23/4/2026 19:20:43] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[23/4/2026 19:20:43] [INFO] data processing starts 
+[23/4/2026 19:20:43] [CRITICAL]  Unknown response code ::undefined 
+[23/4/2026 19:20:43] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[23/4/2026 19:20:43] [INFO] data processing ends 
+[23/4/2026 19:20:43] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[23/4/2026 19:20:43] [CRITICAL] received response code : "INVALID_AGENT"
+[23/4/2026 19:20:43] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[23/4/2026 19:20:43] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[23/4/2026 19:20:52] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:20:54] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:20:59] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:21:4] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:21:14] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:21:14] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:21:19] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:21:29] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:21:31] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:21:34] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:21:38] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:21:43] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","cors":"^2.8.6","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[23/4/2026 19:21:43] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[23/4/2026 19:21:43] [INFO] data processing starts 
+[23/4/2026 19:21:43] [CRITICAL]  Unknown response code ::undefined 
+[23/4/2026 19:21:43] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[23/4/2026 19:21:43] [INFO] data processing ends 
+[23/4/2026 19:21:43] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[23/4/2026 19:21:43] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[23/4/2026 19:21:43] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[23/4/2026 19:21:43] [CRITICAL] received response code : "INVALID_AGENT"
+[23/4/2026 19:21:50] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:21:54] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:22:5] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:22:10] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 19:22:20] [CRITICAL] txn dropped due to sampling factor 

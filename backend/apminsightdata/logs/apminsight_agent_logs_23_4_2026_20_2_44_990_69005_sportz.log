@@ -1,0 +1,472 @@
+[23/4/2026 20:2:44] [INFO] Instrumenting module:: "events"
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::prototype.addListener 
+[23/4/2026 20:2:44] [INFO] Instrumenting module:: "http"
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::createServer 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Server 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::request 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::get 
+[23/4/2026 20:2:44] [INFO] Instrumenting module:: "https"
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::createServer 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Server 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::request 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::get 
+[23/4/2026 20:2:44] [INFO] Instrumenting module:: "http2"
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::createSecureServer 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Http2ServerRequest.prototype.setTimeout 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Http2ServerResponse.prototype.end 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Http2ServerResponse.prototype.setTimeout 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Http2ServerResponse.prototype.createPushResponse 
+[23/4/2026 20:2:44] [INFO] Instrumenting module:: "net"
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Server.prototype.getConnections 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Server.prototype.close 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Socket.prototype.setTimeout 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Socket.prototype.write 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Socket.prototype.connect 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::createConnection 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Server.prototype.listen 
+[23/4/2026 20:2:44] [INFO] Instrumenting module:: "fs"
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::access 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::ftruncate 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::mkdir 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::mkdtemp 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::readdir 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::readFile 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::readlink 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::realpath 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::truncate 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::appendFile 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::symlink 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::copyFile 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::open 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::writeFile 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::chmod 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::fchmod 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::lchmod 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::link 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::rename 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::chown 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::fchown 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::lchown 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::futimes 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::utimes 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::close 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::exists 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::fdatasync 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::fstat 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::fsync 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::lstat 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::stat 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::rmdir 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::unlink 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::read 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::write 
+[23/4/2026 20:2:44] [INFO] realpath.native is undefined in module::fs 
+[23/4/2026 20:2:44] [INFO] Instrumenting module:: "dns"
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::lookupService 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::lookup 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::resolve 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::resolve4 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::resolve6 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::resolveCname 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::resolveMx 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::resolveNaptr 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::resolveNs 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::resolvePtr 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::resolveSoa 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::resolveSrv 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::resolveTxt 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::resolveAny 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::reverse 
+[23/4/2026 20:2:44] [INFO] Instrumenting module:: "crypto"
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::pbkdf2 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::randomBytes 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::randomFill 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::generateKeyPair 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::scrypt 
+[23/4/2026 20:2:44] [INFO] Instrumenting module:: "domain"
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Domain.prototype.bind 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Domain.prototype.intercept 
+[23/4/2026 20:2:44] [INFO] Instrumenting module:: "zlib"
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Deflate.prototype.close 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Inflate.prototype.close 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Gzip.prototype.close 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Gunzip.prototype.close 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::DeflateRaw.prototype.close 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::InflateRaw.prototype.close 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Unzip.prototype.close 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Deflate.prototype.flush 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Inflate.prototype.flush 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Gzip.prototype.flush 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Gunzip.prototype.flush 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::DeflateRaw.prototype.flush 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::InflateRaw.prototype.flush 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Unzip.prototype.flush 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Deflate.prototype.params 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::deflate 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::deflateRaw 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::gunzip 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::gzip 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::inflate 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::inflateRaw 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::unzip 
+[23/4/2026 20:2:44] [INFO] Instrumenting module:: "child_process"
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::exec 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::execFile 
+[23/4/2026 20:2:44] [INFO] Instrumenting module:: "cluster"
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::disconnect 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Worker.prototype.send 
+[23/4/2026 20:2:44] [INFO] Instrumenting module:: "process"
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::send 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::nextTick 
+[23/4/2026 20:2:44] [INFO] Instrumenting module:: "dgram"
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Socket.prototype.bind 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Socket.prototype.close 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Socket.prototype.send 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::createSocket 
+[23/4/2026 20:2:44] [INFO] Instrumenting module:: "tls"
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::connect 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::TLSSocket.prototype.renegotiate 
+[23/4/2026 20:2:44] [INFO] Instrumenting module:: "stream"
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Writable.prototype.write 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Writable.prototype.end 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::finished 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::pipeline 
+[23/4/2026 20:2:44] [INFO] Instrumenting module:: "global"
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::setImmediate 
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::setTimeout 
+[23/4/2026 20:2:44] [INFO] Instrumenting module:: "inspector"
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Session.prototype.post 
+[23/4/2026 20:2:44] [INFO] Instrumenting module:: "worker_threads"
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Worker.prototype.terminate 
+[23/4/2026 20:2:44] [INFO] Instrumenting module:: "readline"
+[23/4/2026 20:2:44] [INFO] Instrumenting function ::Interface.prototype.question 
+[23/4/2026 20:2:44] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","cors":"^2.8.6","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[23/4/2026 20:2:44] [INFO] Application not hosted in Kubernetes. 
+[23/4/2026 20:2:45] [ERROR] HTTP request error: socket hang up 
+[23/4/2026 20:2:46] [ERROR] HTTP request error: socket hang up 
+[23/4/2026 20:2:46] [INFO] Application not hosted in AWS. 
+[23/4/2026 20:2:46] [ERROR] HTTP request error: socket hang up 
+[23/4/2026 20:2:46] [INFO] Application not hosted in Azure 
+[23/4/2026 20:2:46] [ERROR] HTTP request error: getaddrinfo ENOTFOUND metadata.google.internal 
+[23/4/2026 20:2:46] [INFO] Application not hosted in GCP 
+[23/4/2026 20:2:47] [ERROR] HTTP request error: socket hang up 
+[23/4/2026 20:2:47] [INFO] Application not hosted in docker. 
+[23/4/2026 20:2:47] [INFO] Application not hosted in AWS_Fargate 
+[23/4/2026 20:2:47] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:2:47] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[23/4/2026 20:2:47] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[23/4/2026 20:2:53] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:2:58] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:3:4] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:3:8] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:3:13] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:3:23] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:3:28] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:3:38] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:3:43] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:3:45] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","cors":"^2.8.6","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[23/4/2026 20:3:45] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:3:45] [INFO] data processing starts 
+[23/4/2026 20:3:45] [CRITICAL]  Unknown response code ::undefined 
+[23/4/2026 20:3:45] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:3:45] [INFO] data processing ends 
+[23/4/2026 20:3:45] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[23/4/2026 20:3:45] [CRITICAL] received response code : "INVALID_AGENT"
+[23/4/2026 20:3:45] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[23/4/2026 20:3:45] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[23/4/2026 20:3:53] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:3:58] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:4:8] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:4:13] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:4:23] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:4:28] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:4:38] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:4:43] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:4:45] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","cors":"^2.8.6","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[23/4/2026 20:4:45] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:4:45] [INFO] data processing starts 
+[23/4/2026 20:4:45] [CRITICAL]  Unknown response code ::undefined 
+[23/4/2026 20:4:45] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:4:45] [INFO] data processing ends 
+[23/4/2026 20:4:45] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[23/4/2026 20:4:45] [CRITICAL] received response code : "INVALID_AGENT"
+[23/4/2026 20:4:45] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[23/4/2026 20:4:45] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[23/4/2026 20:4:53] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:4:58] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:5:8] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:5:13] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:5:24] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:5:28] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:5:39] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:5:44] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:5:45] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","cors":"^2.8.6","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[23/4/2026 20:5:45] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:5:45] [INFO] data processing starts 
+[23/4/2026 20:5:45] [CRITICAL]  Unknown response code ::undefined 
+[23/4/2026 20:5:45] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:5:45] [INFO] data processing ends 
+[23/4/2026 20:5:45] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[23/4/2026 20:5:45] [CRITICAL] received response code : "INVALID_AGENT"
+[23/4/2026 20:5:45] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[23/4/2026 20:5:45] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[23/4/2026 20:5:54] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:5:59] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:6:9] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:6:14] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:6:45] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","cors":"^2.8.6","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[23/4/2026 20:6:45] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:6:45] [INFO] data processing starts 
+[23/4/2026 20:6:45] [CRITICAL]  Unknown response code ::undefined 
+[23/4/2026 20:6:45] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:6:45] [INFO] data processing ends 
+[23/4/2026 20:6:45] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[23/4/2026 20:6:45] [CRITICAL] received response code : "INVALID_AGENT"
+[23/4/2026 20:6:45] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[23/4/2026 20:6:45] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[23/4/2026 20:7:45] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","cors":"^2.8.6","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[23/4/2026 20:7:45] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:7:45] [INFO] data processing starts 
+[23/4/2026 20:7:45] [CRITICAL]  Unknown response code ::undefined 
+[23/4/2026 20:7:45] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:7:45] [INFO] data processing ends 
+[23/4/2026 20:7:45] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[23/4/2026 20:7:45] [CRITICAL] received response code : "INVALID_AGENT"
+[23/4/2026 20:7:45] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[23/4/2026 20:7:45] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[23/4/2026 20:8:0] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:8:3] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:8:9] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:8:13] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:8:15] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:8:18] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:8:28] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:8:28] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:8:29] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:8:29] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:8:30] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:8:33] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:8:42] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:8:43] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:8:45] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","cors":"^2.8.6","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[23/4/2026 20:8:45] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:8:45] [INFO] data processing starts 
+[23/4/2026 20:8:45] [CRITICAL]  Unknown response code ::undefined 
+[23/4/2026 20:8:45] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:8:45] [INFO] data processing ends 
+[23/4/2026 20:8:45] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[23/4/2026 20:8:45] [CRITICAL] received response code : "INVALID_AGENT"
+[23/4/2026 20:8:46] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[23/4/2026 20:8:46] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[23/4/2026 20:8:53] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:8:53] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:8:54] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:8:58] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:9:8] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:9:13] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:9:23] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:9:25] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:9:25] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:9:28] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:9:38] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:9:43] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:9:45] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","cors":"^2.8.6","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[23/4/2026 20:9:45] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:9:45] [INFO] data processing starts 
+[23/4/2026 20:9:45] [CRITICAL]  Unknown response code ::undefined 
+[23/4/2026 20:9:45] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:9:45] [INFO] data processing ends 
+[23/4/2026 20:9:45] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[23/4/2026 20:9:45] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[23/4/2026 20:9:45] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[23/4/2026 20:9:45] [CRITICAL] received response code : "INVALID_AGENT"
+[23/4/2026 20:9:53] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:9:58] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:10:4] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:10:9] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:10:19] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:10:21] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:10:21] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:10:24] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:10:29] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:10:34] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:10:37] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:10:44] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:10:45] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","cors":"^2.8.6","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[23/4/2026 20:10:45] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:10:45] [INFO] data processing starts 
+[23/4/2026 20:10:45] [CRITICAL]  Unknown response code ::undefined 
+[23/4/2026 20:10:45] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:10:45] [INFO] data processing ends 
+[23/4/2026 20:10:45] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[23/4/2026 20:10:45] [CRITICAL] received response code : "INVALID_AGENT"
+[23/4/2026 20:10:45] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[23/4/2026 20:10:45] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[23/4/2026 20:10:54] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:10:59] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:11:9] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:11:13] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:11:15] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:11:19] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:11:29] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:11:34] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:11:44] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:11:45] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","cors":"^2.8.6","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[23/4/2026 20:11:45] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:11:45] [INFO] data processing starts 
+[23/4/2026 20:11:45] [CRITICAL]  Unknown response code ::undefined 
+[23/4/2026 20:11:45] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:11:45] [INFO] data processing ends 
+[23/4/2026 20:11:45] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[23/4/2026 20:11:45] [CRITICAL] received response code : "INVALID_AGENT"
+[23/4/2026 20:11:45] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[23/4/2026 20:11:45] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[23/4/2026 20:11:54] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:11:59] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:12:9] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:12:14] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:12:24] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:12:29] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:12:39] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:12:44] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:12:45] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","cors":"^2.8.6","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[23/4/2026 20:12:45] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:12:45] [INFO] data processing starts 
+[23/4/2026 20:12:45] [CRITICAL]  Unknown response code ::undefined 
+[23/4/2026 20:12:45] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:12:45] [INFO] data processing ends 
+[23/4/2026 20:12:45] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[23/4/2026 20:12:45] [CRITICAL] received response code : "INVALID_AGENT"
+[23/4/2026 20:12:45] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[23/4/2026 20:12:45] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[23/4/2026 20:12:54] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:12:59] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:13:9] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:13:14] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:13:24] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:13:29] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:13:39] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:13:44] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:13:45] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","cors":"^2.8.6","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[23/4/2026 20:13:45] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:13:45] [INFO] data processing starts 
+[23/4/2026 20:13:45] [CRITICAL]  Unknown response code ::undefined 
+[23/4/2026 20:13:45] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:13:45] [INFO] data processing ends 
+[23/4/2026 20:13:45] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[23/4/2026 20:13:45] [CRITICAL] received response code : "INVALID_AGENT"
+[23/4/2026 20:13:45] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[23/4/2026 20:13:45] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[23/4/2026 20:13:54] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:13:59] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:14:9] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:14:14] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:14:24] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:14:29] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:14:32] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:14:37] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:14:45] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","cors":"^2.8.6","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[23/4/2026 20:14:45] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:14:45] [INFO] data processing starts 
+[23/4/2026 20:14:45] [CRITICAL]  Unknown response code ::undefined 
+[23/4/2026 20:14:45] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:14:45] [INFO] data processing ends 
+[23/4/2026 20:14:45] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[23/4/2026 20:14:45] [CRITICAL] received response code : "INVALID_AGENT"
+[23/4/2026 20:14:45] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[23/4/2026 20:14:45] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[23/4/2026 20:14:48] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:14:55] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:15:0] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:15:5] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:15:15] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:15:20] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:15:29] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:15:29] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:15:33] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:15:38] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:15:45] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","cors":"^2.8.6","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[23/4/2026 20:15:45] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:15:45] [INFO] data processing starts 
+[23/4/2026 20:15:45] [CRITICAL]  Unknown response code ::undefined 
+[23/4/2026 20:15:45] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:15:45] [INFO] data processing ends 
+[23/4/2026 20:15:45] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[23/4/2026 20:15:45] [CRITICAL] received response code : "INVALID_AGENT"
+[23/4/2026 20:15:45] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[23/4/2026 20:15:45] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[23/4/2026 20:15:53] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:15:58] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:16:8] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:16:13] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:16:23] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:16:28] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:16:38] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:16:43] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:16:45] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","cors":"^2.8.6","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[23/4/2026 20:16:45] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:16:45] [INFO] data processing starts 
+[23/4/2026 20:16:45] [CRITICAL]  Unknown response code ::undefined 
+[23/4/2026 20:16:45] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:16:45] [INFO] data processing ends 
+[23/4/2026 20:16:45] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[23/4/2026 20:16:45] [CRITICAL] received response code : "INVALID_AGENT"
+[23/4/2026 20:16:45] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[23/4/2026 20:16:45] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[23/4/2026 20:16:53] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:16:58] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:17:8] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:17:13] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:17:23] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:17:28] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:17:38] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:17:43] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:17:45] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","cors":"^2.8.6","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[23/4/2026 20:17:45] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:17:45] [INFO] data processing starts 
+[23/4/2026 20:17:45] [CRITICAL]  Unknown response code ::undefined 
+[23/4/2026 20:17:45] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:17:45] [INFO] data processing ends 
+[23/4/2026 20:17:45] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[23/4/2026 20:17:45] [CRITICAL] received response code : "INVALID_AGENT"
+[23/4/2026 20:17:46] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[23/4/2026 20:17:46] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[23/4/2026 20:17:53] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:17:58] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:18:8] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:18:13] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:18:24] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:18:24] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:18:34] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:18:39] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:18:44] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","cors":"^2.8.6","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[23/4/2026 20:18:44] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:18:44] [INFO] data processing starts 
+[23/4/2026 20:18:44] [CRITICAL]  Unknown response code ::undefined 
+[23/4/2026 20:18:44] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:18:44] [INFO] data processing ends 
+[23/4/2026 20:18:45] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[23/4/2026 20:18:45] [CRITICAL] received response code : "INVALID_AGENT"
+[23/4/2026 20:18:45] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[23/4/2026 20:18:45] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[23/4/2026 20:18:46] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:18:51] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:19:1] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:19:6] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:19:16] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:19:21] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:19:31] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:19:36] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:19:44] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","cors":"^2.8.6","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[23/4/2026 20:19:44] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:19:44] [INFO] data processing starts 
+[23/4/2026 20:19:44] [CRITICAL]  Unknown response code ::undefined 
+[23/4/2026 20:19:44] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[23/4/2026 20:19:44] [INFO] data processing ends 
+[23/4/2026 20:19:45] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[23/4/2026 20:19:45] [CRITICAL] received response code : "INVALID_AGENT"
+[23/4/2026 20:19:45] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[23/4/2026 20:19:45] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[23/4/2026 20:19:51] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:19:56] [CRITICAL] txn dropped due to sampling factor 
+[23/4/2026 20:20:6] [CRITICAL] txn dropped due to sampling factor 
