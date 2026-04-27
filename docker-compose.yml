@@ -23,6 +23,6 @@ services:
       target: production
       dockerfile: Dockerfile
     ports:
-      - 3000:3000
+      - 3000:80
     depends_on:
       - api
