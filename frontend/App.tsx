@@ -12,7 +12,7 @@ const HomeRoute: React.FC = () => {
   const matchData = useMatchData();
   return (
     <AppLayout
-      subtitle="Real-time match data demoaaaa"
+      subtitle="Real-time match data"
       headerRight={
         <>
           <StatusIndicator status={matchData.status} />
