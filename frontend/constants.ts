@@ -1,5 +1,5 @@
-const DEFAULT_API_BASE_URL = "http://localhost:8000";
-const DEFAULT_WS_BASE_URL = "ws://localhost:8000/ws";
+const DEFAULT_API_BASE_URL = "http://54.146.93.121:8000";
+const DEFAULT_WS_BASE_URL = "ws://54.146.93.121:8000/ws";
 
 export const API_BASE_URL = DEFAULT_API_BASE_URL;
 export const WS_BASE_URL = DEFAULT_WS_BASE_URL;
